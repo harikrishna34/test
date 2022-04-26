@@ -1,0 +1,16 @@
+image: node:16
+
+pipelines:
+  default:
+      - step:
+          name: Build and Test
+          caches:
+            - node
+          script:
+            - npm install
+            - npm install -g @angular/cli
+            - echo "commit"
+            - npm i cors  moment-timezone mongoose cookie-parser express utf8
+            - npm run -prod
+            - node app.js
+            

@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "moment-timezone": "^0.5.34",
+    "mongoose": "^6.1.2",
+    "newrelic": "^8.9.1",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.2",
+    "utf8": "^3.0.0"
+  },
+  "name": "mongodb-api",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
